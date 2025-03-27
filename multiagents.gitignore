@@ -1,0 +1,6 @@
+_pycache__/
+*.pyc
+logs/
+assets/*.png
+training_log_1.csv
+*.log
