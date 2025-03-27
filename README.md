@@ -123,7 +123,7 @@ Make sure you have:
 
 </pre>```bash
 git clone https://github.com/aayushmistry/Multi-Agent-Self-Play-in-a-2D-Driving-Environment.git
-cd Multi-Agent-Self-Play-in-a-2D-Driving-Environment```</pre>
+```</pre>
 
 
 ### 📥 Step 2: Install dependencies
