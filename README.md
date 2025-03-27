@@ -64,12 +64,16 @@ The project demonstrates key concepts in **multi-agent reinforcement learning (M
 ## 🧱 Project Structure
 
 multi-agent-driving-simulator/</br>
-├── envs/ # Custom Gym environment</br> 
-├── algorithms/ # PPO training loop</br> 
-├── configs/ # YAML hyperparameters</br> 
-├── utils/ # Logging helpers</br> 
+├── envs/</br>
+│   ├── multi_agent_env.py # Custom Gym environment</br>
+├── algorithms/</br> 
+│   ├──train_ppo.py # PPO training loop</br> 
+├── configs/</br>
+│   ├──ppo_config.yaml# YAML hyperparameters</br>
 ├── logs/ # Training CSV logs</br> 
-├── assets/ # Visuals & flowcharts</br> 
+├── assets/</br>
+│   ├──10_agents.png</br>
+│   ├──Flowchart.pdf # Visuals & flowcharts</br>
 ├── main.py # Entrypoint</br> 
 ├── requirements.txt</br> 
 └── README.md</br>
