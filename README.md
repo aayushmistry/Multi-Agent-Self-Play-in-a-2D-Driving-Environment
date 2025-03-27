@@ -121,9 +121,7 @@ Make sure you have:
 
 ### 📦 Step 1: Clone the Repository
 
-</pre>```bash
-git clone https://github.com/aayushmistry/Multi-Agent-Self-Play-in-a-2D-Driving-Environment.git
-```</pre>
+</pre>```git clone https://github.com/aayushmistry/Multi-Agent-Self-Play-in-a-2D-Driving-Environment.git```</pre>
 
 
 ### 📥 Step 2: Install dependencies
