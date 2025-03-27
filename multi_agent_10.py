@@ -1,4 +1,3 @@
-# === UPDATED MultiAgentDrivingEnv with Success Rate Improvements + GIF Export ===
 import gymnasium as gym
 from gymnasium import spaces
 import numpy as np
@@ -185,7 +184,7 @@ class MultiAgentDrivingEnv(gym.Env):
             pygame.quit()
             self.screen = None
 
-# === TRAINING SCRIPT ===
+
 def make_env():
     return Monitor(MultiAgentDrivingEnv(num_agents=10, grid_size=(10, 10)))
 env = DummyVecEnv([make_env])
